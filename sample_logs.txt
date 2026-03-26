@@ -1,0 +1,20 @@
+
+
+
+2026-02-01 00:15:35 | INFO | cache | Token refreshed user_id=1370 (env=prod, region=me-south-1, ip=74.26.66.165, request_id=a25cqin2nc4x63vp, trace_id=m6nsvph66fp21ulgy3nxsd6q, ua="PostmanRuntime/7.36.0")
+2026-02-01 00:15:36 | INFO | email | Metrics pushed cpu=23% mem=84% (env=prod, region=me-south-1, ip=105.44.31.156, request_id=qr8xtb77vg487yfq, trace_id=4shf4drbcs4fd688jsfd75lb, ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
+2026-02-01 00:15:37 | INFO | payments | Metrics pushed cpu=64% mem=91% (env=prod, region=ap-southeast-1, ip=248.145.181.100, request_id=j4wq5sphnyathavm, trace_id=i2n69fgfh6cmk0d2doafy8sz, ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
+2026-02-01 00:15:38 | INFO | gateway | Job completed successfully: job=sync-users duration_ms=2629 (env=staging, region=me-south-1, ip=53.154.152.241, request_id=1bj5gwlp1jai1qf2, trace_id=b30awq6rcewqctw8mil7yp70, ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)")
+2026-02-01 00:15:39 | INFO | email | File uploaded id=file_764jmpu5w2 bytes=2751666 (env=prod, region=me-south-1, ip=232.78.179.157, request_id=sroeptjs2sqgcbif, trace_id=51f8uhygg6c2agoul756ggxp, ua="Mozilla/5.0 (Linux; Android 14; Pixel 7)")
+2026-02-01 00:15:40 | DEBUG | gateway | Debug message should be invalid
+2026-02-01 00:15:41 | INFO | db | Batch processed records=885 duration_ms=1614 (env=dev, region=ap-southeast-1, ip=244.254.196.67, request_id=kd3g7phi05atkz6g, trace_id=bytw4rs3yohfed9iii383yen, ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)")
+2026-02-01 00:15:42 | WARN | notifications | Retrying request to upstream service attempt=5 (env=prod, region=ap-southeast-1, ip=32.62.125.228, request_id=b9oisigng0pculg3, trace_id=ii4e0pqkxh2ld7gyrs40sd8q, ua="Mozilla/5.0 (Linux; Android 14; Pixel 7)")
+2026-02-01 00:15:43 | ERROR | inventory | Write operation failed: storage quota exceeded bucket=prod-backups (env=prod, region=ap-southeast-1, ip=140.91.122.169, request_id=868rmg0ph1562mt8, trace_id=ai15eghxwnlls7tmyo5a0wzh, ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
+2026-02-01 00:15:44 | INFO | email | Batch processed records=967 duration_ms=660 (env=prod, region=me-south-1, ip=176.99.206.91, request_id=jdvo11wrxy4lpk8v, trace_id=3ka393548ll1vbka8aaqakm1, ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
+2026-02-01 00:15:45 | INFO | cdn | Job completed successfully: job=invoice-run duration_ms=3466 (env=dev, region=us-east-1, ip=162.160.213.93, request_id=buiikdmau1htvik2, trace_id=1mphcu9ffwum9m2ah0x2jfkx, ua="Mozilla/5.0 (Linux; Android 14; Pixel 7)")
+2026-02-01 00:15:46 | ERROR | cache | Service dependency not responding dependency=stripe (env=prod, region=eu-west-1, ip=56.78.124.38, request_id=5w76mx2a26pyq8jo, trace_id=6aee391oal7bcq7ylmpho9hk, ua="curl/8.4.0")
+2026-02-01 00:15:47 | INFO | gateway | File uploaded id=file_wyqtwbspz4 bytes=7952750 (env=staging, region=us-east-1, ip=155.178.220.129, request_id=r74n7whoohsnr4dc, trace_id=hb3ynsw6l5zzmzuq4u6qg3kf, ua="Mozilla/5.0 (Linux; Android 14; Pixel 7)")
+2026-02-01 00:15:48 | INFO | worker | Batch processed records=3083 duration_ms=3175 (env=prod, region=eu-west-1, ip=111.13.175.3, request_id=urrq6lgljxqyv55q, trace_id=axdzezplrnvr32hfwjarfhef, ua="Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)")
+2026-02-01 00:15:49 | ERROR | email | Authentication failed due to invalid token user_id=2036 (env=prod, region=us-east-1, ip=138.152.233.210, request_id=9lvzr6k5he0r985f, trace_id=sdns761ye7i5t07q4y75wd2j, ua="Mozilla/5.0 (Linux; Android 14; Pixel 7)")
+2026-02-01 00:15:50 | INFO | analytics | File uploaded id=file_bzatuc8tih bytes=8551853 (env=dev, region=eu-west-1, ip=194.213.92.18, request_id=o0kuhywbjfjclidd, trace_id=yxkoujajjg8ll13bqqjgdg85, ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
+2026-02-01 00:15:51 | INFO | notifications | Config loaded version=1.7.19 (env=dev, region=ap-southeast-1, ip=216.58.201.25, request_id=ml78sad0kgw9nqws, trace_id=5nx4h6njgvbprr2fb4kqk4qi, ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
