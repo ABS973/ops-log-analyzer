@@ -1,23 +1,19 @@
 INCIDENT MINI-REPORT
 ========================================
 
-INFO: 35253
-WARN: 9814
-ERROR: 3922
-DEBUG: 314
+INFO: 12
+WARN: 1
+ERROR: 3
+DEBUG: 1
 
 Top services:
-  storage: 2533
-  profile: 2532
-  billing: 2524
-  kms: 2500
-  gateway: 2495
+  email: 4
+  gateway: 3
+  cache: 2
+  notifications: 2
+  payments: 1
 
 Sample ERROR logs:
   2026-02-01 00:15:43 | ERROR | inventory | Write operation failed: storage quota exceeded bucket=prod-backups (env=prod, region=ap-southeast-1, ip=140.91.122.169, request_id=868rmg0ph1562mt8, trace_id=ai15eghxwnlls7tmyo5a0wzh, ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
   2026-02-01 00:15:46 | ERROR | cache | Service dependency not responding dependency=stripe (env=prod, region=eu-west-1, ip=56.78.124.38, request_id=5w76mx2a26pyq8jo, trace_id=6aee391oal7bcq7ylmpho9hk, ua="curl/8.4.0")
   2026-02-01 00:15:49 | ERROR | email | Authentication failed due to invalid token user_id=2036 (env=prod, region=us-east-1, ip=138.152.233.210, request_id=9lvzr6k5he0r985f, trace_id=sdns761ye7i5t07q4y75wd2j, ua="Mozilla/5.0 (Linux; Android 14; Pixel 7)")
-  2026-02-01 00:16:05 | ERROR | billing | Payment gateway returned 504 provider=stripe (env=prod, region=me-south-1, ip=194.34.193.165, request_id=4l0i8x5jrotc5cqz, trace_id=hnm3pud33blpkxuwp6sqmb21, ua="curl/8.4.0")
-  2026-02-01 00:16:13 | ERROR | cache | Upstream service unavailable dependency=search-index (env=prod, region=eu-west-1, ip=196.70.17.109, request_id=ch7lixxlanmyot3r, trace_id=ikcogtmckcvolpst19u0f0bh, ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)")
-
-(Skipped 587 malformed / invalid lines)
